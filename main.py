@@ -1,8 +1,8 @@
 #Author: Kyle Chen kvc5823@psu.edu 
 
 #Course 1 Codes
-GradeP1 = input("Enter your course 1 letter grade:")
-CreditP1 = int(input("Enter your course 1 credit:"))
+GradeP1 = input("Enter your course 1 letter grade: ")
+CreditP1 = int(input("Enter your course 1 credit: "))
 if GradeP1 == "A":
   GradePt1 = int(4)
   print("Grade point for course 1 is:4.0")
@@ -31,8 +31,8 @@ else:
   print("Grade point for course 1 is:0.0")
 
 #Course 2 Codes
-GradeP2 = input("Enter your course 2 letter grade:")
-CreditP2 = int(input("Enter your course 2 credit:"))
+GradeP2 = input("Enter your course 2 letter grade: ")
+CreditP2 = int(input("Enter your course 2 credit: "))
 if GradeP2 == "A":
   GradePt2 = 4
   print("Grade point for course 2 is:4.0")
@@ -61,8 +61,8 @@ else:
   print("Grade point for course 2 is:0.0")
 
 #Course 3 Codes     
-GradeP3 = input("Enter your course 3 letter grade:")
-CreditP3 = int(input("Enter your course 3 credit:"))
+GradeP3 = input("Enter your course 3 letter grade: ")
+CreditP3 = int(input("Enter your course 3 credit: "))
 if GradeP3 == "A":
   GradePt3 = 4
   print("Grade point for course 3 is:4.0")
