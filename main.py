@@ -92,4 +92,4 @@ else:
 
 GPA = (GradePt1 * CreditP1 + GradePt2 * CreditP2 + GradePt3 * CreditP3)/(CreditP1 + CreditP2 + CreditP3)
 
-print ("Your GPA is: ", GPA)
+print ("Your GPA is:", GPA)
