@@ -28,6 +28,7 @@ elif GradeP1 == "D":
   GradePt1 = 1.0
   print("Grade point for course 1 is: 1.0")
 else:
+  GradePt1 = 0
   print("Grade point for course 1 is: 0.0")
 
 #Course 2 Codes
@@ -58,6 +59,7 @@ elif GradeP2 == "D":
   GradePt2 = 1.0
   print("Grade point for course 2 is: 1.0")
 else:
+  GradePt2 = 0
   print("Grade point for course 2 is: 0.0")
 
 #Course 3 Codes     
@@ -88,7 +90,10 @@ elif GradeP3 == "D":
   GradePt3 = 1.0
   print("Grade point for course 3 is: 1.0")
 else:
+  GradePt3 = 0
   print("Grade point for course 3 is: 0.0")
+  
+  
 
 GPA = (GradePt1 * CreditP1 + GradePt2 * CreditP2 + GradePt3 * CreditP3)/(CreditP1 + CreditP2 + CreditP3)
 
