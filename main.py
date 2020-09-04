@@ -4,7 +4,7 @@
 GradeP1 = input("Enter your course 1 letter grade: ")
 CreditP1 = int(input("Enter your course 1 credit: "))
 if GradeP1 == "A":
-  GradePt1 = int(4)
+  GradePt1 = 4
   print("Grade point for course 1 is: 4.0")
 elif GradeP1 == "A-":
   GradePt1 = 3.67
